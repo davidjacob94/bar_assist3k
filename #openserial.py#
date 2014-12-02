@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import serial
+ser = serial.Serial(port = '/dev/tty.usbmodemfd131', baud rate = 9600)  # open first serial port
+print ser.name          # check which port was really used
+ser.write("hello")      # write a string
+ser.close()             # close port

@@ -4,9 +4,11 @@
    Each motor requires two pins for forward and reverse 13-12, 11-10, 9-8, 7-6
    Forward and reverse can be changed by switching the pin assignments from one to the other
    Duration of rotation and delay can be changed by changing the X*sec value
-   */
+   
+   Button two is commented out due to a physical malfunction
+    */
 
-//by JACOBDP
+//by JACOBDP, BERGMA
 
 //HIGH MEANS OFF
 //LOW MEANS ON

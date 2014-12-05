@@ -13,7 +13,3 @@ tuning_forward/reverse each slowly rotate each motor with a button press to enab
 cc3000_recieve_UDP_test is a non-working sketch that attempts to utilize the wifi shield as a UDP server.
 
 indiv_motors rotates each motor forwards and backwards with an independent button push. 
-
-All .py files are python scripts for writing over serial to the arduino.
-
-Folders marked *old* are out of date and may no longer compile
